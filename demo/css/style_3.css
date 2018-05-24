@@ -1,0 +1,46 @@
+*{
+	margin:0;
+	 box-sizing: border-box;
+}
+h1{
+	
+	font-size: 2.3rem;
+    text-align: center;
+    background-color: blue;
+
+}
+strong{ 
+	font-size: 1.6rem;
+	height:10rem;
+	width:18%;
+	background-color: red;
+ }
+
+.nengli,.jiaoyu,.idea,.xinxi,.lianxi{
+	width:78%;
+    height:18%;
+}
+.con{
+	width:100%;
+}
+.xinxi{
+height:10rem;
+
+} 
+.xinxi p,.lianxi p{
+
+	margin-right:2%;
+}
+
+.left{
+ 	 float:left;
+ }
+ .right{
+ 	float:right;
+ }
+
+.clearfix:after {content:"."; 
+  display:block;
+  height:0; 
+  visibility:hidden;
+   clear:both; }
