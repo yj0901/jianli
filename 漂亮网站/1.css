@@ -1,0 +1,376 @@
+*{padding:0;
+
+    margin:0 auto;
+}
+a{text-decoration: none;
+    color:white;
+}
+li{
+  list-style: none;
+
+}
+
+/*第1个模块*/
+.hi{
+     padding:10%;
+    background-image:url(1.jpg);
+   text-align: center;
+   line-height:100%;
+   color:white;
+}
+.hi section{
+   margin:5rem 0;
+    
+}
+.hi form{
+    border:0.01rem solid lightgray ;
+    padding-top:5%;
+}
+.hi form p {
+
+font-size: 30%;
+color:lightgray;
+margin:1rem 0 3rem 0;
+}
+.hi form input{
+    display: inline-block;
+    margin:1%;
+    padding:1rem ;
+    background-color: transparent;
+    border:0.01rem solid lightgray ;
+    color:white;
+}
+.hi form button{
+    display: inline-block;
+    margin:1%;
+    padding:1rem ;
+    background-color: white;
+    border:0.01rem solid lightgray ;
+    color:black;
+}
+.hi form input:nth-of-type(2){
+
+    color:gray;
+}
+/*第二个模块*/
+.cus{
+    padding:5%;
+  
+   
+}
+.cus>article{
+    text-align: center;
+    line-height:100%;
+}
+.cus>p{
+    margin:3rem 0;
+    font-size:1.5rem;
+     text-align: center;
+   line-height:100%;
+ 
+}
+.cus>article{
+font-size:0.3rem;
+
+}
+.item{ 
+  display: flex;
+    flex-flow: row wrap;
+}
+.item img{
+
+width:10%;
+height:40%;
+}
+.item section{
+
+display: flex;
+flex-flow: row wrap;
+}
+
+.item section img{
+    flex:1;
+
+}
+.item section dt{
+    flex:16;
+}
+
+/*第3个模块*/
+.sup{
+    background-image: url("1.jpg");
+    display:flex;
+    flex-flow:row wrap;
+    padding:10% 0 10% 10%;
+}
+.sup>section{
+  margin:5%;
+    text-align: left;
+color:white;
+}
+.sup>section>article{
+
+    font-size:2rem;
+
+}
+.sup>section>p{
+    margin:10% 0;
+
+}
+.sup>section>a{
+    display:inline-block;
+border: 1px solid lightgray;
+padding:0.5rem;
+
+font-size:0.5rem;
+
+}
+.sup>section>a:hover{
+color:black;
+   background-color:white; 
+}
+
+.sup2{
+    padding:2.5%;
+    display: flex;
+      flex:1;
+align-items: center;
+     border:1px solid lightgray;
+}
+.ratio{
+    line-height:100%;
+    height:0.4rem;
+    width:1rem;
+    border:1px solid lightgray;
+    border-radius: 50%;
+    margin-right:1rem;
+}
+.lesson{
+    font-size:1.2rem;
+    padding:10% 5%;
+    background-color:white;
+}
+.lesson>article{
+    color:black;
+    font-size:1.8rem;
+    text-align:center;
+}
+.lesson>p{
+    color:gray;
+    font-size:0.8rem;
+    margin:1rem 0 4rem 0;
+    text-align:center;
+}
+.list{
+    display:flex;
+    flex-flow:row wrap;
+}
+.list>section{
+flex:1;
+width:22%;
+border:1px solid lightgray;
+}
+.list>section:nth-of-type(2){
+margin-left:2%;
+}
+.list>section:nth-of-type(3){
+margin-left:2%;
+}
+.list>section:nth-of-type(4){
+margin-left:2%;
+}
+.bottom>p{
+   word-break: break-all;
+   word-wrap: break-word;
+   font-size: 1rem;
+   color:lightgray;
+   margin:1rem 0;
+}
+.img{
+background-color: red;
+height:50%;
+text-align: center;
+}
+.list>section>h3{
+    margin:0.3rem;
+}
+.bottom{
+    margin:5%;
+}
+.img>img{
+    width: :50%;
+    height:50%;
+    margin-top:20%;
+}
+/*第4个模块*/
+.num4{
+    padding:10%;
+    display:flex;
+    flex-flow:column wrap;
+    border-bottom: 1px solid lightgray;
+}
+.num4 h1{
+    margin-bottom: 10%;
+
+}
+.art{
+    flex:3;
+    display:flex;
+}
+
+.art p{
+     word-break: break-all;
+text-align: center;
+   font-size: 1rem;
+   color:lightgray;
+   
+
+}
+.art article{
+    font-size: 1.5rem;
+    text-align:center;
+       margin-bottom: 10%;
+}
+.art section{
+    width:30%
+}
+/*第5个模块*/
+.num5{
+  padding:5% 10%;
+  border-bottom: :1px solid lightgray; 
+  display: flex;
+  flex-flow: column wrap;
+}
+.q1,.q2{
+  display: flex;
+}
+
+.num5 img{
+  flex:1 200px;
+width: 50%
+}
+.q1{
+margin-bottom:10%;
+}
+
+.q1>div{
+margin: 0 0 0 5%;
+}
+.q2>div{
+margin: 0 5% 0 0;
+}
+
+.num5 article{
+  font-size:2rem;
+  margin-bottom: 1rem;
+}
+.num5 p{
+  color:lightgray;
+}
+/*第6个模块*/
+.num6{
+  border: 1px solid lightgray;
+  padding:10%;
+  text-align: center;
+}
+.num6 p{
+  margin:3%;
+}
+.num6 section{
+  display: flex;
+flex-flow:row wrap;
+
+}
+.num6 section img{
+   flex: 1 200px;
+width: 400px;
+height: 400px;
+  margin:20px 10px 0 10px;
+}
+/*第7个模块*/
+.num7{
+    border: 1px solid lightgray;
+  padding:10%;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+}
+.num7 form{
+flex:1 300px;
+display: flex;
+flex-flow:column wrap;
+ border: 1px solid lightgray;
+padding:5%;
+margin-right:5%; 
+}
+.num7 caption{
+font-size: 2.3rem;
+margin:3%;
+}
+
+.num7 input{
+
+  flex: 2rem;
+  margin: 2%;
+ background-color:white;
+ border: 1px solid lightgray;
+ color: lightgray;}
+
+ .num7 form input:nth-of-type(4){
+ background-color:black;
+  color: white;
+text-align: center;}
+   .num7 form input:nth-of-type(3){
+    flex: 9rem;
+}
+.num7 article{
+  font-size: 3rem;
+}
+.num7 p{
+    word-break: break-all;
+   word-wrap: break-word;
+   color: lightgray;
+   margin:1rem;
+}
+.num7 section{
+text-align:left;
+padding: 1rem;
+}
+.li li{
+  text-align:left;
+  display: flex;
+  flex-flow: row wrap;
+
+}
+
+.li img{
+  width:2rem;
+  height: 2rem;
+  margin:0 1rem 0 0; 
+  padding: 0;
+}
+.li li p{
+color:black;
+
+}
+
+/*第8个模块*/
+.num8{
+  background-color: black;
+  padding:5% 10%;
+  display: flex;
+  flex-flow: row wrap; 
+  color:gray;
+}
+.ww li{
+margin: 2rem;
+
+}
+.ww li:nth-of-type(1){
+color: white;
+
+}
+.ww img{
+  width: 1.5rem;
+  height:1.5rem;
+}
